@@ -5,8 +5,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $(document).on('load', function() {
-    $('img').append('.tasty');  
+  $('img').on('load', function() {
+    $('img').append('<.tasty>');  
   });
 }
 
