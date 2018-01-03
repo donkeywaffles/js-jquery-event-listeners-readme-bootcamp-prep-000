@@ -12,10 +12,10 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(key) {
-    if(key.which === parseInt('G')) {
-      
+    if(key.which == 71) {
+      alert('You pressed the "g" key'); 
     }
-  })
+  });
 }
 
 $(document).ready(function(){
